@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/awan"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="66dp"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="IDENTITAS GURU"
+        android:textColor="#FAF6F6"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/buyuli" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="NAMA: YULI KURNIAWATI,S.pd."
+        android:textColor="#F8F9FA"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIP: 198407182022212017"
+        android:gravity="center_horizontal"
+        android:textColor="#FDF9F9"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir:Pemalang,18 Juli 1984"
+        android:gravity="center_horizontal"
+        android:textColor="#FAF6F6"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat: jl.Tanjung 2,Perum wiku 2, Blok. J.22 RT.02/RW.05, Katonsari,Demak"
+        android:gravity="center_horizontal"
+        android:textColor="#FAF6F6"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="467dp"
+        android:layout_height="53dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="Pekerjaan: Guru IPAS"
+        android:textColor="#FBF7F7"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
